@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pepper and Louka Foundation</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+:root { --green: #2d5a27; --cream: #f5f0e6; --brown: #8b5a2b; --warm: #e8d5b7; --text: #2c2c2c; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Nunito', sans-serif; background: var(--cream); color: var(--text); line-height: 1.6; }
+header { background: var(--green); color: white; padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+header h1 { font-family: 'Playfair Display', serif; font-size: 1.5rem; }
+nav a { color: white; text-decoration: none; margin-left: 1.2rem; font-weight: 600; }
+.hero { background: linear-gradient(rgba(45,90,39,0.75), rgba(45,90,39,0.75)), url('https://globalnews.ca/wp-content/uploads/2026/10/raccoon-guy.jpg') center/cover; color: white; padding: 6rem 2rem; text-align: center; }
+.hero h2 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 1rem; }
+.hero p { max-width: 700px; margin: 0 auto 2rem; font-size: 1.2rem; }
+.btn { display: inline-block; background: var(--brown); color: white; padding: 0.8rem 1.8rem; border-radius: 30px; text-decoration: none; font-weight: 700; margin: 0.5rem; }
+section { padding: 4rem 2rem; max-width: 1100px; margin: 0 auto; }
+h2 { font-family: 'Playfair Display', serif; color: var(--green); font-size: 2.2rem; margin-bottom: 1.5rem; text-align: center; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.card h3 { color: var(--green); margin-bottom: 0.5rem; }
+.tracker { background: white; padding: 2rem; border-radius: 12px; text-align: center; margin: 2rem 0; }
+.stats { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem; margin: 1rem 0; }
+.stat { background: var(--warm); padding: 1rem; border-radius: 8px; min-width: 150px; }
+iframe { width: 100%; height: 500px; border: none; border-radius: 12px; margin-top: 1rem; }
+.timeline { border-left: 4px solid var(--green); padding-left: 1.5rem; margin: 2rem 0; }
+.timeline div { margin-bottom: 1.5rem; }
+.socials { text-align: center; padding: 2rem; background: var(--green); color: white; }
+.socials a { color: white; margin: 0 1rem; font-weight: 600; }
+form { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: 2rem auto; }
+input, textarea, button { padding: 0.8rem; border-radius: 8px; border: 1px solid #ccc; font-family: inherit; }
+button { background: var(--green); color: white; border: none; cursor: pointer; font-weight: 700; }
+@media (max-width: 700px) { header { flex-direction: column; } nav a { margin: 0 0.5rem; } .hero h2 { font-size: 2rem; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>🦝 Pepper & Louka Foundation</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#support">Support</a>
+    <a href="#learn">Learn</a>
+    <a href="#tokenomics">Tracker</a>
+    <a href="#news">News</a>
+    <a href="#stories">Stories</a>
+    <a href="#calendar">Calendar</a>
+  </nav>
+</header>
+<section class="hero">
+  <h2>Small Paws. Big Heart.</h2>
+  <p>Louka found an injured baby raccoon named Pepper in Montréal. Together they're building a sanctuary, helping others, and creating a place for everyday people to learn about crypto and stand up for what's right.</p>
+  <a href="#support" class="btn">Support the Cause</a>
+  <a href="#learn" class="btn">Learn About Crypto</a>
+</section>
+<section id="about">
+  <h2>About Pepper & Louka</h2>
+  <p>In May 2026, Montréal resident Louka Berman found a baby raccoon shot with a crossbow at a construction site. The mother had already died. Louka nursed Pepper back to health, intending to return her to the wild. Every time he tried to release her, Pepper stayed and waited for him.</p>
+  <p>Videos of their bond went viral. Then, in early October 2026, Québec wildlife authorities served a search warrant. Pepper went into hiding. Louka faces charges and fears what could happen if she is seized. The community responded. A Solana token called $PEPPER was created, with 100% of creator fees going to Louka to help build a sanctuary and protect Pepper.</p>
+  <div class="timeline">
+    <div><strong>May 2026</strong> — Rescue of injured baby raccoon Pepper.</div>
+    <div><strong>September 2026</strong> — Viral bike video. Louka becomes Montréal's "raccoon guy."</div>
+    <div><strong>Early October 2026</strong> — Search warrant. Pepper hides. Legal battle begins.</div>
+    <div><strong>October 10, 2026</strong> — $PEPPER token launches on Pump.fun. Fees directed to Louka.</div>
+    <div><strong>Ongoing</strong> — Sanctuary plans, interviews, community support, helping others.</div>
+  </div>
+</section>
+<section id="mission">
+  <h2>Our Mission</h2>
+  <div class="cards">
+    <div class="card"><h3>Sanctuary for Wildlife</h3><p>Build a safe home for Pepper and other domestic wildlife in need.</p></div>
+    <div class="card"><h3>Help Others</h3><p>Support people and pets fighting similar legal, medical, or financial battles. Record every person helped.</p></div>
+    <div class="card"><h3>Educate Everyday People</h3><p>A plain-language hub for learning how crypto works, without jargon or hype.</p></div>
+    <div class="card"><h3>Bigger Than Pets</h3><p>If authorities can break into a home to take a pet, what can they not do? Stand for rights and compassion.</p></div>
+  </div>
+</section>
+<section id="support">
+  <h2>How to Support</h2>
+  <div class="cards">
+    <div class="card"><h3>GoFundMe</h3><p>Direct donations for the sanctuary, legal costs, and medical care.</p><a href="https://www.gofundme.com/f/save-pepper-and-help-build-a-wildlife-sanctuary-in-montreal-edwq7" class="btn" target="_blank">Donate</a></div>
+    <div class="card"><h3>Buy / Trade on pippop.fun</h3><p>Every trade helps. 40% of trading activity on our partner platform goes to buybacks and burns.</p><a href="https://pippop.fun" class="btn" target="_blank">Trade on pippop.fun</a></div>
+  </div>
+  <div class="tracker">
+    <h3>Fee Allocation</h3>
+    <div class="stats">
+      <div class="stat">Sanctuary Main Wallet</div>
+      <div class="stat">20% Compassion Fund</div>
+      <div class="stat">15% Operations</div>
+      <div class="stat">5% Buybacks & Burns</div>
+    </div>
+  </div>
+</section>
+<section id="learn">
+  <h2>Crypto 101 for Everyday People</h2>
+  <div class="cards">
+    <div class="card"><h3>What is a token?</h3><p>A digital coin tied to a project or community. $PEPPER represents support for Pepper and Louka.</p></div>
+    <div class="card"><h3>How trading helps</h3><p>Small fees from trades (creator fees) go to Louka to fund the sanctuary and help others.</p></div>
+    <div class="card"><h3>Blockchain in plain words</h3><p>A shared public notebook that records transactions so they can't be easily changed or hidden.</p></div>
+    <div class="card"><h3>Risks</h3><p>Prices move up and down. Only use money you can afford to lose. This is support, not investment advice.</p></div>
+  </div>
+</section>
+<section id="tokenomics">
+  <h2>Live Tracker & Tokenomics</h2>
+  <div class="tracker">
+    <div class="stats">
+      <div class="stat"><strong>Market Cap</strong><br>~$50K</div>
+      <div class="stat"><strong>24h Volume</strong><br>~$8K</div>
+      <div class="stat"><strong>Burned</strong><br>~36M tokens</div>
+      <div class="stat"><strong>Raised</strong><br>$110K+ (fees + donations)</div>
+    </div>
+    <p>Contract: 9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump</p>
+    <iframe src="https://dexscreener.com/solana/9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump?embed=1&theme=light&trades=0&info=0"></iframe>
+    <p style="margin-top:1rem;">Live chart updates automatically. Trading on pippop.fun directs 40% toward buybacks and burns.</p>
+  </div>
+</section>
+<section id="news">
+  <h2>News & Articles</h2>
+  <div class="cards">
+    <div class="card"><h3>Montreal Gazette</h3><p>Pepper the raccoon is hiding from the law.</p><a href="https://montrealgazette.com/news/a-montreal-man-and-his-unconventional-pet-went-viral-now-pepper-the-raccoon-is-hiding-from-the-law/" target="_blank">Read</a></div>
+    <div class="card"><h3>Global News</h3><p>Raccoon guy collected over $110,000 in cryptocurrency fees.</p><a href="https://globalnews.ca/news/12124980/montreals-raccoon-guy-collects-cryptocurrency-fees/" target="_blank">Read</a></div>
+    <div class="card"><h3>More Coverage</h3><p>Interviews, Canadian Press, and updates from Louka.</p></div>
+  </div>
+</section>
+<section id="stories">
+  <h2>Stories, Testimonials & Help</h2>
+  <p style="text-align:center;">Share your story. Reach out if you need help with legal or other costs. We record every person helped (paid in crypto) and keep public testimonials with proof.</p>
+  <form onsubmit="alert('Thank you! Your story has been received (prototype).'); return false;">
+    <input type="text" placeholder="Your name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="5" placeholder="Your story or how we can help" required></textarea>
+    <button type="submit">Submit Story / Reach Out</button>
+  </form>
+  <div class="cards">
+    <div class="card"><h3>People Helped</h3><p>Dedicated records of support provided. Coming soon as Louka assists more families and pets.</p></div>
+    <div class="card"><h3>Reviews of Louka</h3><p>Show proof of help. Community testimonials will appear here.</p></div>
+  </div>
+</section>
+<section id="calendar">
+  <h2>Calendar & Timeline</h2>
+  <div class="timeline">
+    <div><strong>May 2026</strong> — Pepper rescued.</div>
+    <div><strong>Sept 2026</strong> — Viral moment.</div>
+    <div><strong>Oct 2026</strong> — Warrant, token launch, media interviews.</div>
+    <div><strong>Upcoming</strong> — Live sessions with Pepper, new interviews, article drops, sanctuary updates.</div>
+  </div>
+  <p style="text-align:center;">Follow socials for live schedule announcements.</p>
+</section>
+<footer class="socials">
+  <h3>Connect</h3>
+  <p>
+    <a href="https://x.com/MaggotX66" target="_blank">X (Louka)</a>
+    <a href="https://x.com/PepperonPF" target="_blank">X (Pepper)</a>
+    <a href="https://www.tiktok.com/@peppertheraccoon" target="_blank">TikTok</a>
+    <a href="https://www.instagram.com/pepperanddeadpool" target="_blank">Instagram</a>
+    <a href="https://t.me/peppertheracc00n" target="_blank">Telegram</a>
+    <a href="https://pippop.fun" target="_blank">JellyJelly / pippop.fun</a>
+  </p>
+  <p style="margin-top:1rem;">Pepper and Louka Foundation • Built with heart for everyday people.</p>
+</footer>
+</body>
+</html>
